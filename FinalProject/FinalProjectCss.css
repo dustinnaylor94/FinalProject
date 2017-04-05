@@ -1,0 +1,6 @@
+.hiddenDiv {
+    display: none;
+    background-color: darkblue;
+    color: white;
+    border: thick;
+}

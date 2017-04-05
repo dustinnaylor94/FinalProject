@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="jquery-3.2.0.js"></script>
+    <link rel="stylesheet" href="FinalProjectCss.css">
+    <title>Dustin Naylor - Final Project</title>
+    <script src="FinalProjectJS.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".section").click(function(){
+                if($(this).next().is(":hidden")) {
+                    $(this).next().slideDown("fast");
+                } else{
+                    $(this).next().hide();
+                }
+            });
+        });
+    </script>
+
+
+</head>
+<body>
+
+<span class="section"><a href="#" style="cursor:pointer;">Click Me</a></span>
+    <div class = "hiddenDiv">
+        Oh hey there.
+    </div>
+</body>
+</html>
