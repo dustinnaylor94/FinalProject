@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:hidden="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <script src="jquery-3.2.0.js"></script>
@@ -9,13 +9,16 @@
 
 
 
+
 </head>
 <body>
-<h1>Dustin Blair Naylor</h1>
 
-<div class="section">Introduction</div>
-    <div class = "hiddenDiv">
-        Oh hey there.
+<h1 align="center">Dustin Blair Naylor</h1>
+<div id="profilePic"><img src="pics/me.jpg" height="400px" width="400px" align="right"> </div>
+<div class="section">Welcome!</div>
+    <div id="intro">
+        <h2>Map of Kaysville, UT</h2>
+        <div id="map"></div>
     </div>
 
 <div class="section">Hobbies</div>
@@ -26,14 +29,15 @@
 <div class = "hiddenDiv">
     How's it goin'?
 </div>
-<div class="section">Hometown Map</div>
-<div class = "hiddenDiv">
-    How's it goin'?
-</div>
+
 <div class="section">My Experience with CS-185</div>
 <div class = "hiddenDiv">
     <p>How's it goin'?</p>
     <p>I'd have to say that this year this class has got to be the class I learned the most in</p>
 </div>
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrFgxRXWrRuW4_ftv7IFR4EzNCzo6Ztig&callback=initMap">
+</script>
 </body>
 </html>
