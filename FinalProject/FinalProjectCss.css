@@ -1,6 +1,27 @@
 .hiddenDiv {
     display: none;
-    background-color: darkblue;
+    background-color: rgba(1,0,0,0.5);
+    ;
     color: white;
-    border: thick;
+    width: 800px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.section{
+    width: 800px;
+    color: white;
+    background-color: #48486a;
+    font-size: 32px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+body{
+    background-image: url("pics/Saab.jpg");
+    background-size: 100%;
+}
+h1{
+    color: white;
 }

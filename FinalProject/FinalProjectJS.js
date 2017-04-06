@@ -5,10 +5,7 @@
 
 $(document).ready(function(){
     $(".section").click(function(){
-        if($(this).next().is(":hidden")) {
-            $(this).next().slideDown("fast");
-        } else{
-            $(this).next().hide();
-        }
+        $(this).next().toggle("fast","swing");
     });
 });
+
