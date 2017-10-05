@@ -55,12 +55,11 @@ h1{
     font-family: "Arial Black";
     font-size: large;
     position: relative;
+    padding: 0px 10px 0px 10px;
 
 }
 #content{
-    display: none;
-    height: auto;
-    width: 50%;
+    display: inline-block;
     background-color: #48486a;
     border-radius: 10px;
     margin: 10px;
