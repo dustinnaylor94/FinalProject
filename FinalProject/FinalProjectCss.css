@@ -45,3 +45,28 @@ h1{
     right: 60px;
 
 }
+#form{
+    height: 200px;
+}
+#content p{
+    height: inherit;
+    width: inherit;
+    word-wrap: inherit;
+    font-family: "Arial Black";
+    font-size: large;
+    position: relative;
+
+}
+#content{
+    display: none;
+    height: auto;
+    width: 50%;
+    background-color: #48486a;
+    border-radius: 10px;
+    margin: 10px;
+    word-wrap: break-word;
+    position: relative;
+}
+#field{
+    vertical-align: bottom;
+}

@@ -24,5 +24,29 @@ function initMap() {
     });
 }
 
+function submit() {
+    if($('#content').firstChild = $('#content p')){
+        $('#content').hide();
+        $('#content p').remove();
+        var input = $('#userInput').val();
+        var para = document.createElement("p");
+        var node = document.createTextNode(input);
+        para.appendChild(node);
+
+        var element = document.getElementById("content");
+        element.append(para);
+        $('#content').slideDown("fast");
+    }else {
+        var input = $('#userInput').val();
+        var para = document.createElement("p");
+        var node = document.createTextNode(input);
+        para.appendChild(node);
+
+        var element = document.getElementById("content");
+        element.append(para);
+        $('#content').slideDown("fast");
+
+        }
+}
 
 
